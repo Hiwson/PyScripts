@@ -2,6 +2,7 @@ import random
 import math
 
 player = input("Whats your name lad??......\t")
+do{
 playerNo = input("Enter a number between 1-10:.....\t")
 winningNo = random.random()
 winningNo = math.floor(winningNo*10)
@@ -17,4 +18,5 @@ elif pick > winningNo:
 	print(f"Oooops!!! {player} lost mahn----missed by ",diff)
 else:
 	print(f"{player} You won bruv!!!")
-
+}
+while(pick != winningNo);
